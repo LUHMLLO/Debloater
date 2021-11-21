@@ -1452,6 +1452,9 @@ $Bloatware = @(
     #"*Microsoft.Windows.Photos*"
     #"*Microsoft.WindowsCalculator*"
     #"*Microsoft.WindowsStore*"
+    #Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
+    "Microsoft.549981C3F5F10"
+
 )
 
 $removebloat.Add_Click({
