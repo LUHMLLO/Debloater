@@ -1360,7 +1360,7 @@ $cortana.Add_Click({
 
 $Bloatware = @(
     #Unnecessary Windows 10 AppX Apps
-    "Microsoft.Cortana"
+    "*Cortana*"
     "Microsoft.Microsoft.Cortana"
     "Microsoft.3DBuilder"
     "Microsoft.Microsoft3DViewer"
